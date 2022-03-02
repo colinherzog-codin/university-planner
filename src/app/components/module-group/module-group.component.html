@@ -1,0 +1,15 @@
+<div class="module-group-wrapper">
+  <h1 class="module-group-name">{{moduleGroup.name}}</h1>
+  <h2 class="credit-counter">{{getDoneCredits()}} / {{moduleGroup.minimumCredits}}</h2>
+  <div class="group-container">
+    <app-module-group *ngFor="let subGroup of moduleGroup.subGroups" [moduleGroup]="subGroup"
+                      [moduleClasses]="moduleClasses"
+                      (changeClassStateEvent)="changeClassStateEvent.emit($event)"></app-module-group>
+  </div>
+  <div class="module-container">
+    <app-module-class *ngFor="let moduleClass of getModuleClasses()" [moduleClass]="moduleClass"
+                      (changeClassStateEvent)="changeClassStateEvent.emit($event)"
+                      [recommended]="recommended(moduleClass)"
+    ></app-module-class>
+  </div>
+</div>

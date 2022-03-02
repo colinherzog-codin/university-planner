@@ -1,0 +1,27 @@
+.module-group-wrapper {
+  border: 2px black solid;
+  margin: 10px;
+}
+
+.module-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.module-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.module-group-name {
+  font-size: 1.1em;
+  display: inline;
+}
+
+.credit-counter {
+  font-size: 1.1em;
+  display: inline;
+  margin: 0 0 0 10px;
+}

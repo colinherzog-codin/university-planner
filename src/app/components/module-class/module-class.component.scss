@@ -1,0 +1,72 @@
+.module-class-wrapper {
+  border: 3px transparent solid;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  width: 200px;
+  height: 70px;
+}
+
+.available-border {
+  border: 1px orange solid;
+}
+
+.not-available-border {
+  border: 1px orange solid;
+}
+
+.module-id-title {
+  font-size: 0.7em;
+  margin: auto auto auto 0;
+  display: inline;
+}
+.module-name-title {
+  font-size: 0.9em;
+  margin: 0 auto auto auto;
+  display: inline;
+}
+
+.done {
+  background-color: #a6dba6;
+}
+
+.done-button {
+  background-color: #5fa772;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 2px 2px 2px rgba(.2, .2, .2, .2);
+}
+
+.in-progress {
+  background-color: #d9dba6;
+}
+
+.in-progress-button {
+  background-color: #ded98f;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 2px 2px 2px rgba(.2, .2, .2, .2);
+}
+
+
+.marked {
+  background-color: #79aad2;
+}
+
+.mark-button {
+  background-color: #678db5;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 2px 2px 2px rgba(.2, .2, .2, .2);
+}
+
+.recommended {
+  border: 3px #c49645 dashed;
+}
+
+.action-button {
+  margin: 0 5px;
+}

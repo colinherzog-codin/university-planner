@@ -1,0 +1,14 @@
+<div [class.module-class-wrapper]="true"
+     [class.done]="moduleClass.state == 1"
+     [class.in-progress]="moduleClass.state == 2"
+     [class.marked]="moduleClass.state == 3"
+     [class.recommended]="recommended"
+>
+  <span class="module-id-title">{{moduleClass.id}} | </span>
+  <h1 class="module-name-title">{{moduleClass.name}}</h1>
+  <div>
+    <button class="action-button done-button" (click)="changeState(1)">Best.</button>
+    <button class="action-button in-progress-button" (click)="changeState(2)">Eing.</button>
+    <button class="action-button mark-button" (click)="changeState(3)">Mark</button>
+  </div>
+</div>
