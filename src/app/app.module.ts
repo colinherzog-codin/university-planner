@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { OverviewComponent } from './overview/overview.component';
 import { ModuleGroupComponent } from './components/module-group/module-group.component';
 import { ModuleClassComponent } from './components/module-class/module-class.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ModuleClassComponent } from './components/module-class/module-class.com
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
