@@ -1,9 +1,9 @@
 import {Component, OnInit} from '@angular/core';
-import {ModuleClass, ModuleClassState} from "../models/moduleClass";
-import {ModuleGroup} from "../models/moduleGroup";
+import {ModuleClass, ModuleClassState} from "../../models/moduleClass";
+import {ModuleGroup} from "../../models/moduleGroup";
 import {Subscription} from "rxjs";
-import {UniService} from "../services/uni.service";
-import {ModuleGroupFromDatabase} from "../models/moduleGroupFromDatabase";
+import {UniService} from "../../services/uni.service";
+import {ModuleGroupFromDatabase} from "../../models/moduleGroupFromDatabase";
 
 
 @Component({
