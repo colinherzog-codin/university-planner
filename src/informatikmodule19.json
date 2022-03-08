@@ -1,0 +1,986 @@
+[
+  {
+    "id": "GSW1",
+    "name": "GSW 1",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "GSW2",
+    "name": "GSW 2",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "GSW3",
+    "name": "GSW 3",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "GSW4",
+    "name": "GSW 4",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "GSW5",
+    "name": "GSW 5",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "FM1",
+    "name": "FM 1",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "FM2",
+    "name": "FM 2",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "FM3",
+    "name": "FM 3",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "FM4",
+    "name": "FM 4",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "FM5",
+    "name": "FM 5",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "bprma",
+    "name": "Projekt- und Produktkalk. & Marketingplan",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "brfs",
+    "name": "Rechnungswesen für strategisches Mgmt",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "bufor",
+    "name": "Unternehmensführung und -organisation",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "argh",
+    "name": "Argumentation & Rhetorik",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "sprx",
+    "name": "Schreibpraxis",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "daf1",
+    "name": "Deutsch als Fremdsprache 1",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "daf2",
+    "name": "Deutsch als Fremdsprache 2",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "eng1",
+    "name": "Englisch 1",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "eng2",
+    "name": "Englisch 2",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "eng3",
+    "name": "Englisch 3",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "eng4",
+    "name": "Englisch 4",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "elect1",
+    "name": "Elective 1",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "elect2",
+    "name": "Elective 2",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "elect3",
+    "name": "Elective 3",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "elect4",
+    "name": "Elective 4",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "elect5",
+    "name": "Elective 5",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "elect6",
+    "name": "Elective 6",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "elect7",
+    "name": "Elective 7",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "elect8",
+    "name": "Elective 8",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 2,
+    "dependingOn": []
+  },
+  {
+    "id": "ip1",
+    "name": "Projekt 1",
+    "assessment": false,
+    "duringAss": true,
+    "credits": 6,
+    "dependingOn": []
+  },
+  {
+    "id": "ip2",
+    "name": "Projekt 2",
+    "assessment": false,
+    "duringAss": true,
+    "credits": 6,
+    "dependingOn": ["ip1"]
+  },
+  {
+    "id": "ip3",
+    "name": "Projekt 3",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 6,
+    "dependingOn": ["ip2"]
+  },
+  {
+    "id": "ip4",
+    "name": "Projekt 4",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 6,
+    "dependingOn": ["ip3"]
+  },
+  {
+    "id": "ip5",
+    "name": "Projekt 5",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 6,
+    "dependingOn": ["ip4"]
+  },
+  {
+    "id": "ip6",
+    "name": "Bachelor-Thesis",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 12,
+    "dependingOn": ["ip5"]
+  },
+  {
+    "id": "wods",
+    "name": "Workshop DS",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["efalg", "ml", "nlp", "bverl"]
+  },
+  {
+    "id": "ml",
+    "name": "Machine Learning",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["dist", "vana", "dsp"]
+  },
+  {
+    "id": "pac",
+    "name": "Parallel Computing",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["syspr"]
+  },
+  {
+    "id": "nlp",
+    "name": "Natural Language Processing",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["mgli", "lag", "oop2"]
+  },
+  {
+    "id": "wosm",
+    "name": "Workshop ICT SM",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["cysL", "itfs"]
+  },
+  {
+    "id": "itfs",
+    "name": "ITSM Frameworks & Standards",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["pcls"]
+  },
+  {
+    "id": "netsi",
+    "name": "Netwerk-Sicherheit",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["kry", "dnet2"]
+  },
+  {
+    "id": "cpnet",
+    "name": "Computer-Netzwerke",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["dnet2"]
+  },
+  {
+    "id": "cysL",
+    "name": "Cyber Security Lab",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["netsi", "bsys"]
+  },
+  {
+    "id": "pcls",
+    "name": "Public Cloud Service",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["cloud", "dnet2"]
+  },
+  {
+    "id": "wosc",
+    "name": "Workshop SC",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["efalg", "bverl", "exr", "sdent"]
+  },
+  {
+    "id": "simag",
+    "name": "Simulation & Agents",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["algd2"]
+  },
+  {
+    "id": "exr",
+    "name": "Extended Reality",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["uied", "comgr", "ecnf"]
+  },
+  {
+    "id": "bverl",
+    "name": "Bildverarbeitung",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["vana", "magb", "algd1"]
+  },
+  {
+    "id": "efalg",
+    "name": "Effiziente Algorithmen",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["mada", "eana", "algd2"]
+  },
+  {
+    "id": "comgr",
+    "name": "Computer-Grafik",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["magb", "oop2"]
+  },
+  {
+    "id": "woweb",
+    "name": "Workshop Web",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["apsi", "webfr", "eaf", "apm", "webcl"]
+  },
+  {
+    "id": "ddm",
+    "name": "Distributed Data Management",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["dbarc"]
+  },
+  {
+    "id": "apsi",
+    "name": "Applikationssicherheit",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["kry", "infsec", "syspr"]
+  },
+  {
+    "id": "apm",
+    "name": "Application Performance Mgmt",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["bsys", "vesys", "algd2"]
+  },
+  {
+    "id": "eaf",
+    "name": "Enterprise Applikationsframeworks",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["dbarc", "vesys", "depa"]
+  },
+  {
+    "id": "webfr",
+    "name": "Web Frameworks",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["depa", "vesys"]
+  },
+  {
+    "id": "webcl",
+    "name": "Web Clients",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["webpr"]
+  },
+  {
+    "id": "oop1",
+    "name": "Objektorientierte Programmierung 1",
+    "assessment": true,
+    "duringAss": true,
+    "credits": 3,
+    "dependingOn": ["eipr"]
+  },
+  {
+    "id": "oop2",
+    "name": "Objektorientierte Programmierung 2",
+    "assessment": true,
+    "duringAss": true,
+    "credits": 3,
+    "dependingOn": ["oop1"]
+  },
+  {
+    "id": "algd1",
+    "name": "Algorithmen und Datenstrukturen 1",
+    "assessment": true,
+    "duringAss": true,
+    "credits": 3,
+    "dependingOn": ["oop1", "lag", "eana"]
+  },
+  {
+    "id": "algd2",
+    "name": "Algorithmen und Datenstrukturen 2",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["agld1", "oop2"]
+  },
+  {
+    "id": "prcpp",
+    "name": "Programmieren in C++",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "conpr",
+    "name": "Concurrent Programming",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "cpib",
+    "name": "Compilerbau",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "fprog",
+    "name": "Functional Programming",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "req",
+    "name": "Requirements Engineering",
+    "assessment": true,
+    "duringAss": true,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "edbs",
+    "name": "Einführung in Datenbanksysteme",
+    "assessment": true,
+    "duringAss": true,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "swc",
+    "name": "Software-Construction",
+    "assessment": true,
+    "duringAss": true,
+    "credits": 3,
+    "dependingOn": ["oop1"]
+  },
+  {
+    "id": "uuid",
+    "name": "Usability & User Interface Design",
+    "assessment": false,
+    "duringAss": true,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "depa",
+    "name": "Design Patterns",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["oop2"]
+  },
+  {
+    "id": "sepC",
+    "name": "Softwareentwicklungsprozesse",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "swa",
+    "name": "Software Architecture",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "vesys",
+    "name": "Verteilte Systeme",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["oop2"]
+  },
+  {
+    "id": "sysad",
+    "name": "System-Administration",
+    "assessment": true,
+    "duringAss": true,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "dnet1",
+    "name": "Datennetze 1",
+    "assessment": true,
+    "duringAss": true,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "bsys",
+    "name": "Betriebssysteme",
+    "assessment": true,
+    "duringAss": true,
+    "credits": 3,
+    "dependingOn": ["sysad"]
+  },
+  {
+    "id": "syspr",
+    "name": "System-Programmierung",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["bsys"]
+  },
+  {
+    "id": "cloud",
+    "name": "Cloud Computing",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["bsys", "dnet1"]
+  },
+  {
+    "id": "dnet2",
+    "name": "Datennetze 2",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["dnet1"]
+  },
+  {
+    "id": "itsm",
+    "name": "IT System Management",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["bsys"]
+  },
+  {
+    "id": "infsec",
+    "name": "Informationssicherheit",
+    "assessment": false,
+    "duringAss": true,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "mgli",
+    "name": "Mathematische Grundlagen der Informatik",
+    "assessment": true,
+    "duringAss": true,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "lag",
+    "name": "Lineare Algebra und Geometrie",
+    "assessment": true,
+    "duringAss": true,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "eana",
+    "name": "Einführung in die Analysis",
+    "assessment": true,
+    "duringAss": true,
+    "credits": 3,
+    "dependingOn": ["mgli", "lag"]
+  },
+  {
+    "id": "mada",
+    "name": "Mathematik für die Datenkommunikation",
+    "assessment": false,
+    "duringAss": true,
+    "credits": 3,
+    "dependingOn": ["mgli"]
+  },
+  {
+    "id": "dist",
+    "name": "Diskrete Stochastik",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["eana"]
+  },
+  {
+    "id": "vana",
+    "name": "Vertiefung Analysis",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["eana"]
+  },
+  {
+    "id": "kry",
+    "name": "Kryptologie",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["mada"]
+  },
+  {
+    "id": "eti",
+    "name": "Einführung in die Theoretische Informatik",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "stads",
+    "name": "Statistik für Data Science",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["mgli", "lag"]
+  },
+  {
+    "id": "uied",
+    "name": "3D UI & Experience Design",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["dtpC", "ecnf"]
+  },
+  {
+    "id": "fprod",
+    "name": "Funktional Program Design",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["fprog"]
+  },
+  {
+    "id": "iot",
+    "name": "IoT Engineering",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "perl",
+    "name": "Introduction to Perl for Programmers",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "dawr",
+    "name": "Data Wrangling",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["dsp"]
+  },
+  {
+    "id": "eis",
+    "name": "Enterprise Information Systems",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "dsp",
+    "name": "Einführung in Data Sceince mit Python",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["oop2", "eana"]
+  },
+  {
+    "id": "ivis",
+    "name": "Informationsvisualisierung",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["lag", "dtpC", "oop2"]
+  },
+  {
+    "id": "blch",
+    "name": "Blockchain",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "witec",
+    "name": "Wireless Technologies",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "webpr",
+    "name": "Web Programming",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["webeC", "algd1"]
+  },
+  {
+    "id": "cose",
+    "name": "COIN Seminar",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["sna"]
+  },
+  {
+    "id": "stqm",
+    "name": "Software Testing & Quality Mgmt",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["swc"]
+  },
+  {
+    "id": "cuie",
+    "name": "Custom User Interface Elements",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["uuid", "oop2"]
+  },
+  {
+    "id": "emoba",
+    "name": "Entwicklung mobiler Applikationen",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["depa"]
+  },
+  {
+    "id": "adxd",
+    "name": "Advanced Experience Design",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["dtpC"]
+  },
+  {
+    "id": "sdent",
+    "name": "Spiel-Design & -Entwicklung",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["comgr", "pfcs", "ecnf"]
+  },
+  {
+    "id": "magb",
+    "name": "Mathe für Grafik Bildverarbeitung",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["eana", "oop1"]
+  },
+  {
+    "id": "ebssd",
+    "name": "Embedded System Software Design",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["sysad", "dnet1"]
+  },
+  {
+    "id": "webeC",
+    "name": "Web-Engineering",
+    "assessment": true,
+    "duringAss": true,
+    "credits": true,
+    "dependingOn": 3
+  },
+  {
+    "id": "dnead",
+    "name": ".Net Enterprise Application Dev",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["swa", "ecnf"]
+  },
+  {
+    "id": "pefu",
+    "name": "Personal und Führung",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "ecnf",
+    "name": "Einführung C# und das .NET-Framework",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["oop2", "swc"]
+  },
+  {
+    "id": "mpm",
+    "name": "Marketing und Produkt-Mgmt",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "tvver",
+    "name": "Ton- und Video-Verarbeitung",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "qpmC",
+    "name": "Qualitäts- und Prozessmanagement",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "dbarc",
+    "name": "DB-Architektur für Fortgeschrittene",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["edbs"]
+  },
+  {
+    "id": "dtpC",
+    "name": "Designtheorie und -prozesse",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "pfcs",
+    "name": "Physik für Informatik",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["lag", "eana", "oop1"]
+  },
+  {
+    "id": "esol",
+    "name": "E-Solutions",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "eipr",
+    "name": "Einführung in die Programmierung",
+    "assessment": false,
+    "duringAss": true,
+    "credits": 3,
+    "dependingOn": []
+  },
+  {
+    "id": "sna",
+    "name": "Social Network Analysis",
+    "assessment": false,
+    "duringAss": false,
+    "credits": 3,
+    "dependingOn": ["algd2"]
+  }
+]

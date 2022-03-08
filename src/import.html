@@ -1,0 +1,34 @@
+<html>
+<head></head>
+<body>
+
+</body>
+<script type="module">
+import a from "/Users/colinherzog/FHNW/moduleplanner/node_modules/@firebase/app/dist/app-public.d.ts";
+const firebase = require("./../node_modules/firebase");
+const firestore = require("firebase/firestore");
+const settings = require("./environments/environment");
+
+// Initialize Cloud Firestore through Firebase
+a.initializeApp(settings.environment.firebaseConfig);
+var db = firebase.firestore();
+
+var
+
+menu.forEach(function(obj) {
+  db.collection("menu").add({
+    id: obj.id,
+    name: obj.name,
+    assessment: obj.assessment,
+    credits: obj.credits,
+    dependingOn: obj.dependingOn,
+    state: 0
+  }).then(function(docRef) {
+    console.log("Document written with ID: ", docRef.id);
+  })
+    .catch(function(error) {
+      console.error("Error adding document: ", error);
+    });
+});
+</script>
+</html>

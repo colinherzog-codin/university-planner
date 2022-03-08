@@ -1,10 +1,33 @@
 export class ModuleClass {
-  constructor(id: string, title: string, credits: number, dependingOn: string[], state: ModuleClassState) {
+  constructor(id: string, name: string, credits: number, dependingOn: string[], state: ModuleClassState, assessment: boolean, duringAssessment: boolean) {
     this._id = id;
-    this._name = title;
+    this._name = name;
     this._credits = credits;
     this._dependingOn = dependingOn;
     this._state = state;
+    this._assessment = assessment;
+    this._duringAssessment = duringAssessment;
+  }
+
+
+  private _assessment: boolean;
+
+  get assessment(): boolean {
+    return this._assessment;
+  }
+
+  set assessment(value: boolean) {
+    this._assessment = value;
+  }
+
+  private _duringAssessment: boolean;
+
+  get duringAssessment(): boolean {
+    return this._duringAssessment;
+  }
+
+  set duringAssessment(value: boolean) {
+    this._duringAssessment = value;
   }
 
   private _id: string;

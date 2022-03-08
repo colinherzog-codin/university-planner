@@ -44,7 +44,6 @@ export class ModuleGroupComponent implements OnInit {
       const classState = this.moduleClasses.find(m => m.id == otherClass);
       if (classState == null) continue;
       const state = classState.state;
-      console.log(otherClass, state);
       if (state != ModuleClassState.DONE && state != ModuleClassState.IN_PROGRESS) {
         return false;
       }
