@@ -22,6 +22,10 @@ export class NavigationComponent implements OnInit {
       .catch((e) => console.log(e.message));
   }
 
+  profile() {
+
+  }
+
   loggedIn(): boolean {
     return this.authService.loggedIn();
   }
