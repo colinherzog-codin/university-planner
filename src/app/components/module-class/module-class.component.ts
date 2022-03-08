@@ -1,6 +1,5 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {ModuleClass, ModuleClassState} from "../../models/moduleClass";
-import {UserModuleState} from "../../models/userModuleState";
 
 @Component({
   selector: 'app-module-class',
