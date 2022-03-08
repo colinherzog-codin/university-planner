@@ -28,7 +28,6 @@ export class UniService {
 
   updateModuleClassState(moduleClass: ModuleClass) {
     if (this.auth.getUserName() != undefined) {
-      let username = this.auth.getUserName();
       const userModuleStateRef = collection(this.firestore, 'userModuleState');
       let coll = collectionSnapshots(
         query(
@@ -89,7 +88,10 @@ export class UniService {
 
   getUserModuleStates(): Observable<UserModuleState[]> {
     const userModuleStatesRef = collection(this.firestore, 'userModuleState');
-    return collectionData(userModuleStatesRef) as Observable<UserModuleState[]>;
+    return collectionData(query(
+      userModuleStatesRef,
+      where('userId', '==', this.auth.getUserName())
+    )) as Observable<UserModuleState[]>;
   }
 
   getModuleGroups(): Observable<ModuleGroupFromDatabase[]> {
