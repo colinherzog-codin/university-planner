@@ -1,5 +1,6 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {ModuleClass} from "../../models/moduleClass";
+import {ModuleClass, ModuleClassState} from "../../models/moduleClass";
+import {UserModuleState} from "../../models/userModuleState";
 
 @Component({
   selector: 'app-module-class',
@@ -11,13 +12,18 @@ export class ModuleClassComponent implements OnInit {
 
   // @ts-ignore
   @Input() moduleClass: ModuleClass;
+  @Input() moduleClassState: ModuleClassState | undefined;
   // @ts-ignore
   @Input() recommended: boolean;
   @Output() changeClassStateEvent: EventEmitter<{ id: string, state: number }> = new EventEmitter<{ id: string, state: number }>();
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
+    if (this.moduleClassState != undefined) {
+      this.moduleClass.state = this.moduleClassState;
+    }
   }
 
   changeState(state: number) {

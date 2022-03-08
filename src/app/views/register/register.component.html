@@ -1,0 +1,16 @@
+<div class="background">
+  <div class="login-container">
+    <div class="form-container">
+      <h1>Register to UniversityPlanner</h1>
+      <h5>Set your Email and password</h5>
+      <app-login-form (formData)="register($event)"></app-login-form>
+    </div>
+    <div class="text-container">
+      <h1>You know this place?</h1>
+      <p>
+        You've already got an account - Click on the button down below and let's sign in!
+      </p>
+      <button mat-button routerLink="/sign-in">Sign In</button>
+    </div>
+  </div>
+</div>

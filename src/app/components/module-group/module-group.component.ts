@@ -1,6 +1,7 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {ModuleGroup} from "../../models/moduleGroup";
 import {ModuleClass, ModuleClassState} from "../../models/moduleClass";
+import {UserModuleState} from "../../models/userModuleState";
 
 @Component({
   selector: 'app-module-group',
@@ -13,6 +14,7 @@ export class ModuleGroupComponent implements OnInit {
   @Input() moduleGroup: ModuleGroup;
   // @ts-ignore
   @Input() moduleClasses: ModuleClass[];
+  @Input() userModuleStates: UserModuleState[] | undefined;
   @Output() changeClassStateEvent: EventEmitter<{ id: string, state: number }> = new EventEmitter<{ id: string, state: number }>();
 
   constructor() {
@@ -59,5 +61,10 @@ export class ModuleGroupComponent implements OnInit {
       classes.push(...this.getAllGroupModuleClasses(moduleSubGroup))
     }
     return classes;
+  }
+
+  getModuleClassState(id: string): ModuleClassState | undefined {
+    let mcs = this.userModuleStates?.find(u => u.moduleClassId == id)?.moduleClassState;
+    return mcs;
   }
 }

@@ -4,10 +4,12 @@
   <div class="group-container">
     <app-module-group *ngFor="let subGroup of moduleGroup.subGroups" [moduleGroup]="subGroup"
                       [moduleClasses]="moduleClasses"
+                      [userModuleStates]="userModuleStates"
                       (changeClassStateEvent)="changeClassStateEvent.emit($event)"></app-module-group>
   </div>
   <div class="module-container">
     <app-module-class *ngFor="let moduleClass of getModuleClasses()" [moduleClass]="moduleClass"
+                      [moduleClassState]="getModuleClassState(moduleClass.id)"
                       (changeClassStateEvent)="changeClassStateEvent.emit($event)"
                       [recommended]="recommended(moduleClass)"
     ></app-module-class>
