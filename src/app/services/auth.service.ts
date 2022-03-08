@@ -5,7 +5,7 @@ import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   signInWithPopup,
-  signOut,
+  signOut, user,
 } from '@angular/fire/auth';
 import {LoginData} from "../interfaces/login-data.interface";;
 
@@ -31,4 +31,13 @@ export class AuthService {
   logout() {
     return signOut(this.auth);
   }
+
+  loggedIn(): boolean {
+    return this.auth.currentUser != null;
+  }
+
+  getUserName(): string | undefined{
+    return this.auth.currentUser?.uid;
+  }
+
 }

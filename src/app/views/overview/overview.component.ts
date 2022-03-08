@@ -4,6 +4,7 @@ import {ModuleGroup} from "../../models/moduleGroup";
 import {Subscription} from "rxjs";
 import {UniService} from "../../services/uni.service";
 import {ModuleGroupFromDatabase} from "../../models/moduleGroupFromDatabase";
+import {UserModuleState} from "../../models/userModuleState";
 
 
 @Component({
@@ -14,6 +15,7 @@ import {ModuleGroupFromDatabase} from "../../models/moduleGroupFromDatabase";
 export class OverviewComponent implements OnInit {
 
   public moduleClasses: ModuleClass[] = [];
+  public userModuleState: UserModuleState[] = [];
   // @ts-ignore
   public moduleGroup: ModuleGroup;
   // @ts-ignore
@@ -35,9 +37,11 @@ export class OverviewComponent implements OnInit {
     this.uniService.getModuleClasses().subscribe((res: ModuleClass[]) => {
       this.moduleClasses = res;
     });
+    this.uniService.getUserModuleStates().subscribe((les: UserModuleState[]) => {
+      this.userModuleState = les;
+    });
     this.uniService.getModuleGroups().subscribe((res: ModuleGroupFromDatabase[]) => {
       this.moduleGroup = this.uniService.convertToNestedModuleGroup(res);
-      console.log(this.moduleGroup);
     });
   }
 
@@ -51,5 +55,7 @@ export class OverviewComponent implements OnInit {
       // @ts-ignore
       a.state = $event.state;
     }
+    // @ts-ignore
+    this.uniService.updateModuleClassState(a);
   }
 }

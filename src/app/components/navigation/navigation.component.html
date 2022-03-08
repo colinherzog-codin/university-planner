@@ -1,1 +1,1 @@
-<mat-toolbar><a (click)="logout()">Log out</a></mat-toolbar>
+<mat-toolbar><a (click)="logout()" *ngIf="loggedIn()">Log out</a></mat-toolbar>

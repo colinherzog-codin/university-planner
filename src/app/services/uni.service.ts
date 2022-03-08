@@ -1,18 +1,59 @@
 import {Injectable} from '@angular/core';
-import {addDoc, collection, collectionData, Firestore} from "@angular/fire/firestore";
+import {
+  addDoc,
+  collection,
+  collectionData,
+  setDoc,
+  getDoc,
+  doc,
+  Firestore,
+  collectionChanges, where, collectionSnapshots, query
+} from "@angular/fire/firestore";
 import {ModuleClass} from "../models/moduleClass";
 import {Observable} from "rxjs";
 import {ModuleGroup} from "../models/moduleGroup";
 import {ModuleGroupFromDatabase} from "../models/moduleGroupFromDatabase";
-import firebase from "firebase/compat";
-import firestore = firebase.firestore;
+import {AuthService} from "./auth.service";
+import {UserModuleState} from "../models/userModuleState";
+import {take} from 'rxjs/operators';
+
 
 @Injectable({
   providedIn: 'root'
 })
 export class UniService {
 
-  constructor(private firestore: Firestore) {
+  constructor(private readonly firestore: Firestore, private readonly auth: AuthService) {
+  }
+
+  updateModuleClassState(moduleClass: ModuleClass) {
+    if (this.auth.getUserName() != undefined) {
+      let username = this.auth.getUserName();
+      const userModuleStateRef = collection(this.firestore, 'userModuleState');
+      let coll = collectionSnapshots(
+        query(
+          userModuleStateRef,
+          where('userId', '==', this.auth.getUserName()),
+          where('moduleClassId', '==', moduleClass.id)
+        )
+      );
+      coll.pipe(take(1)).subscribe(entry => {
+        if (entry.length == 0) {
+          addDoc(userModuleStateRef, {
+            moduleClassState: moduleClass.state,
+            userId: this.auth.getUserName(),
+            moduleClassId: moduleClass.id
+          }).then(x => console.log(x));
+        } else {
+          let docRef = doc(this.firestore, 'userModuleState', entry[0].id);
+          setDoc(docRef, {
+            moduleClassState: moduleClass.state,
+            userId: this.auth.getUserName(),
+            moduleClassId: moduleClass.id
+          }, {merge: true}).then(r => console.log(r));
+        }
+      });
+    }
   }
 
   addModuleClass(moduleClass: ModuleClass) {
@@ -44,6 +85,11 @@ export class UniService {
   getModuleClasses(): Observable<ModuleClass[]> {
     const moduleClassRef = collection(this.firestore, 'moduleClass');
     return collectionData(moduleClassRef) as Observable<ModuleClass[]>;
+  }
+
+  getUserModuleStates(): Observable<UserModuleState[]> {
+    const userModuleStatesRef = collection(this.firestore, 'userModuleState');
+    return collectionData(userModuleStatesRef) as Observable<UserModuleState[]>;
   }
 
   getModuleGroups(): Observable<ModuleGroupFromDatabase[]> {
