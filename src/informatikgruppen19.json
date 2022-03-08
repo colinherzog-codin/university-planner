@@ -1,0 +1,310 @@
+[
+  {
+    "name": "Studium",
+    "minimumCredits": 180,
+    "obligateGroup": true,
+    "subGroups": [
+      "Projekte",
+      "Informatik",
+      "Betriebswirtschaft",
+      "Kommunikation",
+      "Englisch",
+      "GSW",
+      "Freie"
+      "Module"
+    ],
+    "obligateModuleClasses": [],
+    "moduleClasses": []
+  },
+  {
+    "name": "Projekte",
+    "minimumCredits": 42,
+    "obligateGroup": true,
+    "subGroups": [],
+    "obligateModuleClasses": [
+      "ip1",
+      "ip2",
+      "ip3",
+      "ip4",
+      "ip5",
+      "ip6"
+    ],
+    "moduleClasses": []
+  },
+  {
+    "name": "Informatik-Vertiefungen",
+    "minimumCredits": 18,
+    "obligateGroup": true,
+    "subGroups": [
+      "Data Science",
+      "ICT System Management",
+      "Spatial Computing",
+      "Web Engineering"
+    ],
+    "obligateModuleClasses": [],
+    "moduleClasses": []
+  },
+  {
+    "name": "Data Science",
+    "minimumCredits": 24,
+    "obligateGroup": false,
+    "subGroups": [],
+    "obligateModuleClasses": [
+      "wods"
+    ],
+    "moduleClasses": [
+      "ml",
+      "pac",
+      "bverl",
+      "efalg",
+      "nlp"
+    ]
+  },
+  {
+    "name": "ICT System Management",
+    "minimumCredits": 18,
+    "obligateGroup": false,
+    "subGroups": [],
+    "obligateModuleClasses": [
+      "wosm",
+      "itfs",
+      "netsi",
+      "cpnet",
+      "cysL",
+      "pcls"
+    ],
+    "moduleClasses": []
+  },
+  {
+    "name": "Spatial Computing",
+    "minimumCredits": 21,
+    "obligateGroup": false,
+    "subGroups": [],
+    "obligateModuleClasses": [
+      "wosc"
+    ],
+    "moduleClasses": [
+      "simag",
+      "exr",
+      "bverl",
+      "efalg",
+      "comgr"
+    ]
+  },
+  {
+    "name": "Web Engineering",
+    "minimumCredits": 30,
+    "obligateGroup": false,
+    "subGroups": [],
+    "obligateModuleClasses": [
+      "woweb"
+    ],
+    "moduleClasses": [
+      "ddm",
+      "apsi",
+      "apm",
+      "eaf",
+      "webfr",
+      "webcl"
+    ]
+  },
+  {
+    "name": "Informatik",
+    "minimumCredits": 111,
+    "obligateGroup": true,
+    "subGroups": [
+      "Informatik Vertiefungen",
+      "Informatik Ergänzungen",
+      "Programmierung",
+      "Software Engineering",
+      "ICT Systeme",
+      "Mathematik"
+    ],
+    "obligateModuleClasses": [],
+    "moduleClasses": []
+  },
+  {
+    "name": "Programmierung",
+    "minimumCredits": 18,
+    "obligateGroup": true,
+    "subGroups": [],
+    "obligateModuleClasses": [],
+    "moduleClasses": [
+      "oop1",
+      "oop2",
+      "algd1",
+      "algd2",
+      "prcpp",
+      "conpr",
+      "cpib",
+      "fprog"
+    ]
+  },
+  {
+    "name": "Software Engineering",
+    "minimumCredits": 18,
+    "obligateGroup": true,
+    "subGroups": [],
+    "obligateModuleClasses": [],
+    "moduleClasses": [
+      "req",
+      "edbs",
+      "swc",
+      "uuid",
+      "depa",
+      "sepC",
+      "swa",
+      "vesys"
+    ]
+  },
+  {
+    "name": "ICT Systeme",
+    "minimumCredits": 18,
+    "obligateGroup": true,
+    "subGroups": [],
+    "obligateModuleClasses": [],
+    "moduleClasses": [
+      "sysad",
+      "dnet1",
+      "bsys",
+      "syspr",
+      "cloud",
+      "dnet2",
+      "itsm",
+      "infsec"
+    ]
+  },
+  {
+    "name": "Mathematik",
+    "minimumCredits": 18,
+    "obligateGroup": true,
+    "subGroups": [],
+    "obligateModuleClasses": [],
+    "moduleClasses": [
+      "mgli",
+      "lag",
+      "eana",
+      "mada",
+      "dist",
+      "vana",
+      "kry",
+      "eti"
+    ]
+  },
+  {
+    "name": "Informatik Ergänzungen",
+    "minimumCredits": 0,
+    "obligateGroup": false,
+    "subGroups": [],
+    "obligateModuleClasses": [],
+    "moduleClasses": [
+      "stads",
+      "uied",
+      "fprod",
+      "iot",
+      "perl",
+      "dawr",
+      "eis",
+      "dsp",
+      "ivis",
+      "blch",
+      "witec",
+      "webpr",
+      "cose",
+      "stqm",
+      "cuie",
+      "emoba",
+      "adxd",
+      "sdent",
+      "magb",
+      "ebssd",
+      "webeC",
+      "dnead",
+      "pefu",
+      "ecnf",
+      "mpm",
+      "tvver",
+      "qpmC",
+      "dbarc",
+      "dtpC",
+      "pfcs",
+      "esol",
+      "eipr",
+      "sna"
+    ]
+  },
+  {
+    "name": "Englisch",
+    "minimumCredits": 8,
+    "obligateGroup": true,
+    "subGroups": [],
+    "obligateModuleClasses": [],
+    "moduleClasses": [
+      "eng1",
+      "eng2",
+      "eng3",
+      "eng4",
+      "elect1",
+      "elect2",
+      "elect3",
+      "elect4",
+      "elect5",
+      "elect6",
+      "elect7",
+      "elect8"
+    ]
+  },
+  {
+    "name": "Kommunikation",
+    "minimumCredits": 4,
+    "obligateGroup": true,
+    "subGroups": [],
+    "obligateModuleClasses": [],
+    "moduleClasses": [
+      "argh",
+      "sprx",
+      "daf1",
+      "daf2"
+    ]
+  },
+  {
+    "name": "Betriebswirtschaft",
+    "minimumCredits": 4,
+    "obligateGroup": true,
+    "subGroups": [],
+    "obligateModuleClasses": [],
+    "moduleClasses": [
+      "bprma",
+      "bufor",
+      "brfs"
+    ]
+  },
+  {
+    "name": "GSW",
+    "minimumCredits": 6,
+    "obligateGroup": true,
+    "subGroups": [],
+    "obligateModuleClasses": [],
+    "moduleClasses": [
+      "GSW1",
+      "GSW2",
+      "GSW3",
+      "GSW4",
+      "GSW5"
+    ]
+  },
+  {
+    "name": "Freie Module",
+    "minimumCredits": 0,
+    "obligateGroup": false,
+    "subGroups": [],
+    "obligateModuleClasses": [],
+    "moduleClasses": [
+      "FM1",
+      "FM2",
+      "FM3",
+      "FM4",
+      "FM5"
+    ]
+  }
+]

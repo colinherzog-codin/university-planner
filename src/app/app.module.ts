@@ -6,6 +6,11 @@ import { AppComponent } from './app.component';
 import { OverviewComponent } from './overview/overview.component';
 import { ModuleGroupComponent } from './components/module-group/module-group.component';
 import { ModuleClassComponent } from './components/module-class/module-class.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {environment} from "../environments/environment";
+import {initializeApp, provideFirebaseApp} from "@angular/fire/app";
+import {getFirestore, provideFirestore} from "@angular/fire/firestore";
+
 
 @NgModule({
   declarations: [
@@ -16,7 +21,11 @@ import { ModuleClassComponent } from './components/module-class/module-class.com
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    provideFirebaseApp(() => initializeApp(environment.firebaseConfig)),
+    provideFirestore(() => getFirestore()),
   ],
   providers: [],
   bootstrap: [AppComponent]
